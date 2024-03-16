@@ -1,0 +1,31 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{  
+    while(true){
+   cout<<"enter a first_number x: ";
+   int x;
+   cin>>x;
+   cout<<"enter a second_number y: ";
+   int y;
+   cin>>y;
+   cout<<"enter the operation : ";
+   char op;
+   cin>>op;
+   switch(op)
+   {
+    case '+':cout<<"addition of two numbers is:"<<x+y<<endl;
+              break;
+    case '-':cout<<"subtraction  of two numbers is:"<<x-y<<endl;
+              break;
+     case '*':cout<<"multiplication of two numbers is: "<<x*y<<endl;
+            break;
+     case '/':cout<<"division of two numbers  is: "<<x/y<<endl;
+             break;
+        default:
+           cout<<"invalid oparator "<<endl;
+              
+   }
+}
+   
+}
